@@ -1,0 +1,173 @@
+/* Navigation */
+
+body {
+  padding-top: 70px;
+  padding-bottom:30px;
+}
+
+.container {
+	background-color: #ffffff;
+}
+
+h1 {
+	color:#7F7F7F;
+}
+h2 {
+	color:#797979;
+}
+h3 {
+	color:#AAAAAA;
+}
+
+.no-mobile, .no-tiny-mobile {
+	display:none;
+}
+
+@media all and (min-width:500px) {
+	.no-tiny-mobile {
+		display:table-cell;
+	}
+}
+
+/* Fixes navbar "break" onto two lines between 992px and 768px */
+@media all and (min-width:768px) {
+	.nav > li.mobile-only {
+		display:none;	
+	}
+	.no-mobile {
+		display:table-cell;
+	}
+	.navbar-brand.active, .navbar-brand.active:hover, .navbar-brand.active:focus {
+		background-color: #e7e7e7;
+		color:#555;
+	}
+	.navbar-nopad {
+		padding:0;
+	}
+	.navbar-right {
+		padding-right:10px;
+	}
+	.navbar-brand {
+		padding-left:20px;
+	}
+}
+@media all and (min-width:992px) {
+	.navbar-nopad {
+		padding-left:15px;
+		padding-right:15px;
+	}
+	.navbar-right {
+		padding-right:0px;
+	}
+
+	.navbar-left {
+		padding-left:15px;
+	}
+	body {
+		padding-top: 90px;
+	}
+}
+
+.container {
+	max-width:970px;
+}
+
+.no-top-margin {
+	margin-top:0;
+}
+.no-horiz-padding {
+	padding-left: 0;
+	padding-right: 0;
+}
+
+.extra-top-padding {
+	padding-top:20px;
+}
+
+/* Projects */
+.project-title {
+	font-weight:bold;
+
+}
+.project-company-title {
+	font-style: italic;
+}
+
+.table-half-and-half td {
+	width:50%;
+}
+
+.thumbnail p {
+	font-style:italic;
+}
+
+.thumbnail {
+	width:90%;
+}
+
+h1 {
+	font-size:2em;
+}
+
+
+@media all and (min-width:400px) {
+	h1 {
+		font-size:36px;
+	}
+	.thumbnail {
+		width:100%;
+	}
+}
+@media all and (min-width:992px) {
+	#rec-container {
+		padding-left:30px;
+	}
+	.thumbnail {
+		width:40%;
+	}	
+}
+
+.thumbnail h4 {
+	font-size:1.4em;
+	text-align:right;
+	font-weight: bold;
+	bottom:0;
+	margin-top:20px;
+	margin-bottom:0px;
+}
+.thumbnail h5 {
+	margin-top:0;
+	margin-bottom:0;
+
+	font-size:1.2em;
+	text-align:right;
+	font-weight: bold;
+	bottom:0;
+}
+
+/* Demo */
+
+.wistia-col, .wistia-container {
+	padding-left:0;
+	padding-right:0;
+}
+.wistia_embed, #theDemoEmbed {
+	width:100%;
+	height:80%;
+}
+
+@media all and (min-width:500px) {
+	.wistia_embed, #theDemoEmbed {
+		width:100%;
+	}
+	.wistia-col, .wistia-container {
+		padding-left:15px;
+		padding-right:15px;
+	}
+}
+
+@media all and (min-width:992px) {
+	.wistia_embed, #theDemoEmbed {
+		height:500px;
+	}
+}
