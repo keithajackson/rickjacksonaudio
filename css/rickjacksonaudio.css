@@ -1,11 +1,16 @@
 /* Navigation */
 
 .align-with-project-table {
-	font-size:1em;
+	font-size:.8em;
 	padding-top:0px;
 	padding-bottom:5px;
 }
 
+@media all and (min-width:380px) {
+	.align-with-project-table {
+		font-size:1em;
+	}
+}
 
 html {
     overflow-y: scroll;
