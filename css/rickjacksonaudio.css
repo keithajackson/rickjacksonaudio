@@ -1,5 +1,25 @@
 /* Navigation */
 
+.align-with-project-table {
+	font-size:1em;
+	padding-top:0px;
+	padding-bottom:5px;
+}
+
+
+html {
+    overflow-y: scroll;
+}
+
+.contact-btn {
+	font-weight: bold;
+}
+
+.nav li a {
+	padding-left:10px;
+	padding-right:10px;
+}
+
 body {
   padding-top: 70px;
   padding-bottom:30px;
@@ -31,6 +51,21 @@ h3 {
 
 /* Fixes navbar "break" onto two lines between 992px and 768px */
 @media all and (min-width:768px) {
+	.pad-top-for-header {
+	padding-top: 8px;
+}
+
+.pad-top-text-for-header {
+	padding-top: 11px;
+}
+	.align-with-project-table {
+			font-size:1.1em;
+			padding-bottom:7px;
+	}	
+	.sm-left-pad {
+		padding-top:14px;
+		padding-left: 8px;
+	}
 	.nav > li.mobile-only {
 		display:none;	
 	}
@@ -41,28 +76,25 @@ h3 {
 		background-color: #e7e7e7;
 		color:#555;
 	}
-	.navbar-nopad {
-		padding:0;
-	}
-	.navbar-right {
-		padding-right:10px;
-	}
 	.navbar-brand {
 		padding-left:20px;
 	}
 }
 @media all and (min-width:992px) {
-	.navbar-nopad {
-		padding-left:15px;
-		padding-right:15px;
+	.sm-left-pad {
+		padding-top:7px;
 	}
-	.navbar-right {
-		padding-right:0px;
-	}
+	.align-with-project-table {
+			font-size:1.5em;
+	}	
 
 	.navbar-left {
 		padding-left:15px;
 	}
+	.nav li a {
+	padding-left:15px;
+	padding-right:15px;
+}
 	body {
 		padding-top: 90px;
 	}
@@ -84,6 +116,10 @@ h3 {
 	padding-top:20px;
 }
 
+.extra-bottom-padding {
+	padding-bottom:10px;
+}
+
 /* Projects */
 .project-title {
 	font-weight:bold;
@@ -101,10 +137,6 @@ h3 {
 	font-style:italic;
 }
 
-.thumbnail {
-	width:90%;
-}
-
 h1 {
 	font-size:2em;
 }
@@ -114,17 +146,11 @@ h1 {
 	h1 {
 		font-size:36px;
 	}
-	.thumbnail {
-		width:100%;
-	}
 }
 @media all and (min-width:992px) {
 	#rec-container {
 		padding-left:30px;
 	}
-	.thumbnail {
-		width:40%;
-	}	
 }
 
 .thumbnail h4 {
