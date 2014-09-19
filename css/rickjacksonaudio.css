@@ -63,7 +63,7 @@ h3 {
 			padding-bottom:7px;
 	}	
 	.sm-left-pad {
-		padding-top:14px;
+		padding-top:16px;
 		padding-left: 8px;
 	}
 	.nav > li.mobile-only {
@@ -82,10 +82,10 @@ h3 {
 }
 @media all and (min-width:992px) {
 	.sm-left-pad {
-		padding-top:7px;
+		padding-top:9px;
 	}
 	.align-with-project-table {
-			font-size:1.5em;
+			font-size:1.3em;
 	}	
 
 	.navbar-left {
