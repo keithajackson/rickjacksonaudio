@@ -1,4 +1,19 @@
 /* Navigation */
+html {
+    overflow-y: scroll;
+}
+body {
+  padding-top: 70px;
+  padding-bottom:30px;
+}
+
+#rec-container .row {
+	max-width: 500px;
+}
+
+.myEmail {
+	padding-top:7px;
+}
 
 .align-with-project-table {
 	font-size:.8em;
@@ -12,9 +27,6 @@
 	}
 }
 
-html {
-    overflow-y: scroll;
-}
 
 .contact-btn {
 	font-weight: bold;
@@ -25,10 +37,6 @@ html {
 	padding-right:10px;
 }
 
-body {
-  padding-top: 70px;
-  padding-bottom:30px;
-}
 
 .container {
 	background-color: #ffffff;
