@@ -5,6 +5,49 @@ html {
 body {
   padding-top: 70px;
   padding-bottom:30px;
+  font-family: 'Raleway', sans-serif;
+  font-size:1.7em;
+}
+
+a {
+	text-decoration: underline;
+	color: #3F7CAC;
+}
+
+.navbar a {
+	text-decoration: none;
+}
+
+ul {
+	list-style-type: circle;
+}
+
+h2 {
+	margin-top:10px;
+}
+
+.navbar {
+	font-family: 'Pathway Gothic One', serif;
+	font-size: 1.3em;
+	border-color: #729EA1;
+}
+
+
+.navbar-brand, .navbar-brand.active {
+	font-size: 1em;
+}
+
+.navbar-brand, .navbar-brand.active, .navbar-default .navbar-nav>li>a, .navbar-default .navbar-nav>.active>a {
+	color: #3F7CAC;
+}
+
+h1, h2, h3 {
+	font-family: 'Merriweather', serif;
+	color: #3F7CAC;
+}
+
+h2 {
+	font-size: 1.6em;
 }
 
 #rec-container .row {
@@ -28,8 +71,9 @@ body {
 }
 
 
-.contact-btn {
-	font-weight: bold;
+.navbar-nav>li>a.contact-btn {
+	background-color:#3F7CAC;
+	color:#FFF;
 }
 
 .nav li a {
@@ -41,16 +85,17 @@ body {
 .container {
 	background-color: #ffffff;
 }
-
+/*
 h1 {
 	color:#7F7F7F;
 }
 h2 {
+	
 	color:#797979;
 }
 h3 {
 	color:#AAAAAA;
-}
+}*/
 
 .no-mobile, .no-tiny-mobile {
 	display:none;
@@ -67,12 +112,15 @@ h3 {
 	.pad-top-for-header {
 	padding-top: 8px;
 }
-
-.pad-top-text-for-header {
-	padding-top: 11px;
+.navbar-brand.active, .nav>.active>a {
+	background: linear-gradient(#FFF, #FFF, #FFF, #B1BDC7);
 }
+
+/*.pad-top-text-for-header {
+	padding-top: 11px;
+}*/
 	.align-with-project-table {
-			font-size:1.1em;
+			font-size:.9em;
 			padding-bottom:7px;
 	}	
 	.sm-left-pad {
@@ -85,10 +133,10 @@ h3 {
 	.no-mobile {
 		display:table-cell;
 	}
-	.navbar-brand.active, .navbar-brand.active:hover, .navbar-brand.active:focus {
+/*	.navbar-brand.active, .navbar-brand.active:hover, .navbar-brand.active:focus {
 		background-color: #e7e7e7;
 		color:#555;
-	}
+	}*/
 	.navbar-brand {
 		padding-left:20px;
 	}
@@ -98,7 +146,7 @@ h3 {
 		padding-top:9px;
 	}
 	.align-with-project-table {
-			font-size:1.3em;
+			font-size:1.2em;
 	}	
 
 	.navbar-left {
@@ -157,7 +205,7 @@ h1 {
 
 @media all and (min-width:400px) {
 	h1 {
-		font-size:36px;
+		font-size:2.3em;
 	}
 }
 @media all and (min-width:992px) {
