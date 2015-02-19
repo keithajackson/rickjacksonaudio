@@ -27,8 +27,8 @@ h2 {
 }
 
 .navbar {
-	font-family: 'Pathway Gothic One', serif;
-	font-size: 1.3em;
+	font-family: 'Ubuntu', serif;
+	font-size: .9em;
 	border-color: #729EA1;
 }
 
@@ -42,7 +42,7 @@ h2 {
 }
 
 h1, h2, h3 {
-	font-family: 'Merriweather', serif;
+	font-family: 'Ubuntu', serif;
 	color: #3F7CAC;
 }
 
